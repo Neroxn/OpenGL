@@ -42,7 +42,7 @@ const char *fragmentShaderSource = "#version 330 core\n"
 int main()
 {
 	glfwInit();
-	//Specify the version and the OpenGL profile. We are usýng version 3.3
+	//Specify the version and the OpenGL profile. We are using version 3.3
 	//Note that these functions set features for the next call of glfwCreateWindow
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
